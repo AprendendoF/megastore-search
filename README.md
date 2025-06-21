@@ -47,7 +47,7 @@ search_by_brand("Samsung");
 - Compatível com cache de buscas.
 
 ## 👥 Contribuições
-Sinta-se à vontade para abrir issues e pull requests.
+Sinta-se à vontade para fazer o que quiser.
 
 ## 📄 Licença
 MIT
