@@ -7,7 +7,8 @@
 
 ## 🧠 Sobre o Projeto
 
-Criei este sistema com o objetivo de simular uma busca eficiente dentro de um catálogo de produtos, como se fosse uma versão interna da MegaStore. Ele permite procurar por **nome**, **marca** ou **categoria**, de forma rápida e com possibilidade de escalar para milhões de registros no futuro.
+Criei este sistema com o objetivo de simular uma busca eficiente dentro de um catálogo de produtos, como se fosse uma versão interna da MegaStore. 
+Ele permite procurar por **nome**, **marca** ou **categoria**, de forma rápida e com possibilidade de escalar para milhões de registros no futuro.
 
 ---
 
