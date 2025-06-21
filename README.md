@@ -1,9 +1,12 @@
+````markdown
 # Sistema de Busca Otimizado para Catálogo de Produtos - MegaStore
 
 ## 📋 Descrição do Projeto
-Este projeto implementa um sistema de busca eficiente e escalável para o catálogo da MegaStore, usando a linguagem de programação Rust. O sistema permite buscas rápidas por nome, marca e categoria de produtos, mesmo com milhões de itens.
+
+Este é um projeto pessoal em que desenvolvi um sistema de busca eficiente e escalável para um catálogo de produtos da "MegaStore", utilizando a linguagem de programação Rust. A proposta foi criar um mecanismo capaz de realizar buscas rápidas por nome, marca e categoria — mesmo com uma base de dados grande.
 
 ## 🚀 Tecnologias Utilizadas
+
 - Linguagem: **Rust**
 - Estrutura de dados: `HashMap`
 - Testes: `cargo test`
@@ -15,7 +18,7 @@ Este projeto implementa um sistema de busca eficiente e escalável para o catál
 git clone https://github.com/seu-usuario/megastore-search.git
 cd megastore-search
 cargo run
-```
+````
 
 ## 🧪 Como Executar os Testes
 
@@ -32,22 +35,27 @@ search_by_brand("Samsung");
 ```
 
 ## 🏗️ Arquitetura do Sistema
-- `main.rs`: Entrada principal
-- `product.rs`: Estrutura de dados de produtos
-- `search.rs`: Módulo com lógica de busca
-- `lib.rs`: Interface para integração
+
+* `main.rs`: Ponto de entrada principal do programa.
+* `product.rs`: Define a estrutura dos produtos.
+* `search.rs`: Contém a lógica de indexação e busca.
+* `lib.rs`: Arquivo reservado para futuras integrações com bibliotecas ou APIs.
 
 ## 📚 Algoritmos e Estruturas de Dados
-- **HashMap**: para indexar e buscar produtos de forma eficiente por múltiplos critérios.
-- Técnicas de normalização de texto para melhorar precisão das buscas.
+
+* Utilizei um **HashMap** (ou `Vec`, dependendo da versão) para indexar e filtrar os produtos por diferentes critérios de forma eficiente.
+* Apliquei técnicas simples de **normalização de texto** (como `to_lowercase`) para tornar a busca mais precisa, mesmo com diferenças de capitalização.
 
 ## 📈 Desempenho e Escalabilidade
-- Busca em tempo constante (`O(1)` médio).
-- Estrutura preparada para particionar dados se necessário (sharding).
-- Compatível com cache de buscas.
+
+* A busca funciona em tempo constante médio (`O(1)`) quando feita com `HashMap`.
+* O sistema foi pensado para ser facilmente expandido com particionamento (sharding) e cache de buscas, caso seja necessário escalar.
 
 ## 👥 Contribuições
-Sinta-se à vontade para fazer o que quiser.
 
-## 📄 Licença
-MIT
+Esse projeto foi desenvolvido com fins de aprendizado e demonstração. Fique à vontade para contribuir, clonar, adaptar ou expandir como quiser!
+
+```
+
+---
+```
